@@ -1,1 +1,4 @@
-console.log("client index.js is running")
+import { checkForName } from './js/nameChecker'
+import { handleSubmit } from './js/formHandler'
+
+console.log(checkForName);
